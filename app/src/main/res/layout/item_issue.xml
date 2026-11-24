@@ -5,7 +5,7 @@
 	android:background="@drawable/list_selector"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
-	android:padding="16dp">
+	android:padding="21dp">
 	<ImageView
 		android:id="@+id/icon"
 		android:layout_width="24dp"
@@ -18,7 +18,7 @@
 		android:contentDescription="@string/recommendation"/>
 	<TextView
 		style="@android:style/TextAppearance.Medium"
-		android:id="@+id/name"
+		android:id="@+id/name" android:fontFamily="@font/brand_display" android:textSize="22sp"
 		android:layout_toRightOf="@+id/icon"
 		android:layout_toEndOf="@+id/icon"
 		android:layout_width="wrap_content"

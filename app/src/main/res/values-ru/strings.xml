@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Решения</string>
+	<string name="app_name">Evenhand</string>
 	<string name="issues">Проблемы</string>
 	<string name="arguments">Плюсы и минусы</string>
 	<string name="recommendation">Рекомендация</string>

@@ -1,0 +1,5 @@
+<resources>
+  <color name="brand_base">#482b36</color>
+  <color name="brand_accent">#ffd3ac</color>
+  <string name="brand_wordmark" translatable="false">Evenhand</string>
+</resources>

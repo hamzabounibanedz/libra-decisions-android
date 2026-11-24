@@ -82,5 +82,5 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Libra 1.13.2 · Android" --notes "Independent build of [Libra 1.13.2](https://github.com/markusfisch/Libra/releases/tag/1.13.2). Download **libra-decisions-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
+          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Evenhand · Android" --notes "Independent build of [Libra 1.13.2](https://github.com/markusfisch/Libra/releases/tag/1.13.2). Download **libra-decisions-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
 

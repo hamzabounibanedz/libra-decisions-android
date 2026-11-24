@@ -1,16 +1,16 @@
 <resources>
-	<color name="primary">#e8e8e8</color>
-	<color name="primary_dark">#e8e8e8</color>
-	<color name="accent">#1a1a1a</color>
-	<color name="background_window">#f5f5f5</color>
-	<color name="background_action_mode">#e8e8e8</color>
-	<color name="background_argument_editor">#fff</color>
-	<color name="separator_argument_editor">#e0e0e0</color>
-	<color name="selector">#fff</color>
-	<color name="yes">#55d400</color>
-	<color name="maybe">#ffcc00</color>
-	<color name="no">#ff6600</color>
-	<color name="neutral">#555</color>
-	<color name="label">#0a0a0a</color>
-	<color name="bubble">#ededed</color>
+	<color name="primary">#f5e9dc</color>
+	<color name="primary_dark">#edddce</color>
+	<color name="accent">#70384b</color>
+	<color name="background_window">#fff9ef</color>
+	<color name="background_action_mode">#f2dfd6</color>
+	<color name="background_argument_editor">#f8ecdd</color>
+	<color name="separator_argument_editor">#d6beb0</color>
+	<color name="selector">#f0ddd1</color>
+	<color name="yes">#247052</color>
+	<color name="maybe">#bc841f</color>
+	<color name="no">#b84d46</color>
+	<color name="neutral">#77665f</color>
+	<color name="label">#38232b</color>
+	<color name="bubble">#f2e4d6</color>
 </resources>

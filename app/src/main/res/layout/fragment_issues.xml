@@ -5,15 +5,16 @@
 	tools:ignore="UnusedAttribute"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
+    <include layout="@layout/brand_header"/>
 	<ListView
-		android:id="@+id/issues"
+		android:id="@+id/issues" android:layout_below="@id/brand_header"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:choiceMode="singleChoice"
 		android:divider="@android:color/transparent"
 		android:dividerHeight="0px"/>
 	<RelativeLayout
-		android:id="@+id/no_issues"
+		android:id="@+id/no_issues" android:layout_below="@id/brand_header"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:visibility="gone">
@@ -39,6 +40,6 @@
 		android:layout_alignParentBottom="true"
 		android:layout_margin="20dp"
 		android:src="@drawable/ic_action_add"
-		android:contentDescription="@string/"
+		android:contentDescription="@string/add_issue"
 		app:elevation="4dp"/>
 </RelativeLayout>

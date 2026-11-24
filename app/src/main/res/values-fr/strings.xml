@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">Décisions</string>
+	<string name="app_name">Evenhand</string>
 	<string name="issues">Problématiques</string>
 	<string name="arguments">Avantages et inconvénients</string>
 	<string name="recommendation">Recommendation</string>

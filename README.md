@@ -1,9 +1,11 @@
 <!-- independent-distribution -->
-# Libra for Android
+# Evenhand for Android
 
-Weighted pros and cons for decisions. This independently signed edition builds the [original 1.13.2 release](https://github.com/markusfisch/Libra/tree/97648460e4efe3816589fea3bfbb5e34c22cad24) from source. The upstream name, license and application features are preserved.
+Weighted pros and cons for decisions. This independently signed edition builds the [original 1.13.2 release](https://github.com/markusfisch/Libra/tree/97648460e4efe3816589fea3bfbb5e34c22cad24) from source. This edition adds a new native identity and a browser companion. Upstream attribution and licensing are included.
 
 [Download APK and AAB](https://github.com/hamzabounibanedz/libra-decisions-android/releases/latest) · [Cloud build and emulator results](https://github.com/hamzabounibanedz/libra-decisions-android/actions/workflows/distribution.yml)
+
+[Web companion](https://evenhand-journal.vercel.app) · [Install on Android](https://evenhand-journal.vercel.app/install)
 
 ![Scan for the Android installation page](distribution/install-qr.png)
 
