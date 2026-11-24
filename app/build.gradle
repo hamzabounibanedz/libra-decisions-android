@@ -6,10 +6,11 @@ android {
 	compileSdk sdk_version
 
 	defaultConfig {
+		applicationId = "io.github.hamzabounibanedz.libra"
 		minSdk 14
 		targetSdk sdk_version
 
-		versionCode 25
+		versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInteger()
 		versionName "1.13.2"
 	}
 

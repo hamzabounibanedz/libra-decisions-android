@@ -6,7 +6,7 @@ import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-PACKAGE = 'de.markusfisch.android.libra'
+PACKAGE = 'io.github.hamzabounibanedz.libra'
 EVIDENCE = Path('delivery/evidence')
 EVIDENCE.mkdir(parents=True, exist_ok=True)
 checks = []
