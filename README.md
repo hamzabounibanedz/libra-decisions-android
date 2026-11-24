@@ -1,3 +1,18 @@
+<!-- independent-distribution -->
+# Libra for Android
+
+Weighted pros and cons for decisions. This independently signed edition builds the [original 1.13.2 release](https://github.com/markusfisch/Libra/tree/97648460e4efe3816589fea3bfbb5e34c22cad24) from source. The upstream name, license and application features are preserved.
+
+[Download APK and AAB](https://github.com/hamzabounibanedz/libra-decisions-android/releases/latest) · [Cloud build and emulator results](https://github.com/hamzabounibanedz/libra-decisions-android/actions/workflows/distribution.yml)
+
+![Scan for the Android installation page](distribution/install-qr.png)
+
+Download the APK on your phone and open it. Android may ask you to allow the download source to install apps. The package uses its original Android identifier and an independent signing certificate. An existing installation signed by another distributor cannot receive this APK as an in-place update.
+
+Run **Actions → Build, test and release Android → Run workflow** to compile, sign, install and test on a hosted Android emulator, and publish a new release. The release includes the APK, AAB, SHA-256 checksums, installation QR and device evidence. Repository signing secrets are ANDROID_KEYSTORE and ANDROID_KEYPASS. No backend or login is required.
+
+## Upstream documentation
+
 # Decisions
 
 Android app that helps making decisions. Works like this:
