@@ -17,6 +17,6 @@ function paint(){
  }
  const sum=totals.yes+totals.no,diff=totals.yes-totals.no;
  $('#meter').value=sum?totals.yes/sum:.5;
- $('#score').textContent=!sum?'Awaiting arguments':diff===0?'Evenly balanced':Math.abs(diff)+' points '+(diff>0?'in favor':'against');
+ $('#score').textContent=!sum?'Awaiting arguments':diff===0?'Evenly balanced':Math.abs(diff)+(Math.abs(diff)===1?' point ':' points ')+(diff>0?'in favor':'against');
 }
 $('#reason').onsubmit=e=>{e.preventDefault();const input=$('#argument'),text=input.value.trim();if(!text)return; journal.entries.push({id:crypto.randomUUID(),text,side:$('#side').value,weight:Number($('#weight').value)});save(key,journal);input.value='';paint();input.focus()};paint();

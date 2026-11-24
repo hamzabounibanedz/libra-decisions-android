@@ -34,7 +34,7 @@
 		</RelativeLayout>
 	</ScrollView>
 	<RelativeLayout
-		android:id="@+id/argument_editor"
+		android:id="@+id/argument_editor" android:layout_margin="10dp" android:paddingHorizontal="4dp"
 		android:background="@drawable/background_argument_editor"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
 			android:max="20"
 			android:progressDrawable="@android:color/transparent"/>
 		<EditText
-			android:id="@+id/argument"
+			android:id="@+id/argument" android:fontFamily="@font/brand_display" android:textSize="20sp"
 			android:background="@android:color/transparent"
 			android:layout_below="@+id/weight"
 			android:layout_width="match_parent"
